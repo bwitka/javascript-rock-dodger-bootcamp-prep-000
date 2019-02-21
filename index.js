@@ -93,7 +93,7 @@ function createRock(x) {
          */
         if (checkCollision(rock)) {
             endGame();
-        } else {
+        } 
             let newTop = rock.offsetTop + 2;
             rock.style.top = newTop + "px";
             /**
@@ -109,7 +109,7 @@ function createRock(x) {
                  */
                 rock.remove();
             }
-        }
+        
     }
 
     // We should kick of the animation of the rock around here
