@@ -83,7 +83,6 @@ function createRock(x) {
   function moveRock() {
 
     if (gameOver) {
-      rock.remove();
       return;
     }
     // implement me!
