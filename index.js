@@ -82,10 +82,10 @@ function createRock(x) {
    */
   function moveRock() {
 
-    if (gameOver) {
-      rock.remove();
-      return;
-    }
+    // if (gameOver) {
+    //   rock.remove();
+    //   return;
+    // }
     // implement me!
     // (use the comments below to guide you!)
     /**
