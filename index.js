@@ -111,8 +111,6 @@ function createRock(x) {
       } else {
          window.requestAnimationFrame(moveRock);
       }
-  
-    window.requestAnimationFrame(moveRock);
     
   }
 
