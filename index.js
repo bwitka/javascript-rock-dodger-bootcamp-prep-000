@@ -81,10 +81,8 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-    var myReq;
 
     if (gameOver) {
-      window.cancelAnimationFrame(myReq);
       rock.remove();
       return;
     }
@@ -122,7 +120,7 @@ function createRock(x) {
   }
 
   // We should kick of the animation of the rock around here
-  myReq = window.requestAnimationFrame(moveRock);
+  window.requestAnimationFrame(moveRock);
 
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision
