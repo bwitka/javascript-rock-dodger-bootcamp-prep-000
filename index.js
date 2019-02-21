@@ -108,6 +108,8 @@ function createRock(x) {
      */
      if (newTop === 380) {
         rock.remove();
+      } else {
+         window.requestAnimationFrame(moveRock);
       }
   
     window.requestAnimationFrame(moveRock);
