@@ -109,13 +109,9 @@ function createRock(x) {
      if (top === 380) {
         rock.remove();
       }
-    // if (newBottom >= 400) {
-    //   window.cancelAnimationFrame(myReq);
-    //   rock.remove();
-    //   return;
-    // } else {
-    //   myReq = window.requestAnimationFrame(moveRock);
-    // }
+  
+    window.requestAnimationFrame(moveRock);
+    
   }
 
   // We should kick of the animation of the rock around here
