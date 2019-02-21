@@ -100,7 +100,6 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
      let newTop = rock.offsetTop + movePx;
-     //let newBottom = newTop + 20;
      rock.style.top = newTop + "px";
 
     /**
